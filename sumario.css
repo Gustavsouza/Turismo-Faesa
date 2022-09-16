@@ -20,7 +20,7 @@ ul#ancoras li span{
     box-sizing: border-box;
 }
 ul#ancoras li:hover{
-    -webkit-transform: scale(1.5);
+    --webkit-transform: scale(1.5);
     transition: 0.7s;
 }
 ul#ancoras li:hover span{
