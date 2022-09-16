@@ -1,0 +1,122 @@
+@charset "UFT-8";
+ul#ancoras{
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#ancoras li span{
+    margin-top: 150px;
+    float: left;
+    opacity: 0;
+    color: white;
+    text-shadow: 1px 1px 3px #000000;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 9pt;
+    line-height: 30px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+ul#ancoras li:hover{
+    -webkit-transform: scale(1.5);
+    transition: 0.7s;
+}
+ul#ancoras li:hover span{
+    opacity: 1;
+    color: white;
+    text-shadow: 1px 1px 3px #000000;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 9pt;
+    line-height: 30px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+ul#ancoras li{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid rgb(255, 255, 255);
+    background-color: white;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.192);
+}
+ul#ancoras li#foto01{
+    background: url('imagens/convento-da-penha.historia.jpg');
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#ancoras li#foto01:hover{
+    background: url('imagens/convento-da-penha.historia.jpg');
+    background-position: 0px 0px ;
+    background-size: 200px 200px;
+    background-color: white;
+
+}
+ul#ancoras li#foto02{
+    background: url('../imagens/festival.jpg');
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#ancoras li#foto02:hover{
+    background: url('../imagens/festival.jpg');
+    background-position: 0px 0px ;
+    background-size: 200px 200px;
+    background-color: white;
+
+}
+ul#ancoras li#foto03{
+    background: url('../imagens/oquefazer.jpg');
+    background-position: 50% 50%;
+    background-size: 220px 220px;
+    background-color: white;
+}
+ul#ancoras li#foto03:hover{
+    background: url('../imagens/oquefazer.jpg');
+    background-position: 0px 0px ;
+    background-size: 200px 200px;
+    background-color: white;
+
+}
+ul#ancoras li#foto04{
+    background: url('imagens/comochegar.png');
+    background-position: 55% 55%;
+    background-size: 250px 250px;
+    background-color: white;
+}
+ul#ancoras li#foto04:hover{
+    background: url('imagens/comochegar.png');
+    background-position: 0px 0px ;
+    background-size: 200px 200px;
+    background-color: white;
+
+}
+ul#ancoras li#foto05{
+    background: url('imagens/video.png');
+    background-position: 50% 50%;
+    background-size: 220px 220px;
+    background-color: white;
+}
+ul#ancoras li#foto05:hover{
+    background: url('imagens/video.png');
+    background-position: 0px 0px ;
+    background-size: 200px 200px;
+    background-color: white;
+
+}
+ul#ancoras li#foto06{
+    background: url('imagens/mapa1.png');
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: white;
+}
+ul#ancoras li#foto06:hover{
+    background: url('imagens/mapa.png');
+    background-position: 0px 0px ;
+    background-size: 200px 200px;
+    background-color: white;
+
+}
