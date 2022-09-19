@@ -13,11 +13,12 @@
     margin: 0px;
     padding: 0px;
 }
-html,body{
+/* html{
    min-height: 100vh;
    background-color: darkgray;
    font-family: var(--font1);
-}
+   text-align: center;
+} */
 header{
     background: rgb(240,156,191);
     background: linear-gradient(0deg, rgba(240,156,191,1) 0%, rgba(255,255,255,1) 47%, rgba(0,151,226,1) 100%, rgba(0,151,226,1) 100%);
@@ -26,8 +27,17 @@ header{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgba(0, 0, 0, 0.445);
     max-height: 100%;
+    width: 100vw;
+    margin: auto;
+    align-items: center;
     
 }
+#container{
+    max-width: 80vw; 
+    margin: auto;
+    text-align: center;
+}
+
 #bandeira{
     opacity: 80%;
     border-radius: 8px;
@@ -63,7 +73,7 @@ section{
     padding-left: 3vh;
     line-height: 2em;
     font-family: var(--font3);
-    font-size: 3vw;
+    font-size: 2vw;
 }
 #titulosumario {
     text-align: center;
@@ -80,9 +90,24 @@ section{
     margin: auto;
     background-color: rgba(255, 255, 255, 0.726);
     -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: rgba(248, 81, 81, 0.979);
+    -webkit-text-stroke-color: rgba(248, 81, 81, 0.589);
+    scale: 1.2;
 }
 
+/* .some{
+    display: none;
+}
+.some:hover{
+    display: block;
+} */
+#mapa1{
+    margin: auto;
+    text-align: center;
+}
+.imgcenter{
+    margin: auto;
+    text-align: center;
+}
 
 section.normal{
     background: white;
@@ -105,12 +130,12 @@ section > p{
  padding-bottom: 2em;
 }
 section#img01{
-    background-image: url('../imagens/background001.jpg');
+    background-image: url('../imagens/CAPA-SOMENTE-CONVENTO-1080x338.png');
     background-position: right center ;
     background-size: cover;
 }
 section#img02{
-    background-image: url('../imagens/background002.jpg');
+    background-color: rgba(0, 0, 0, 0.274);
     background-position: right center;
     background-size: cover;
 }
@@ -129,4 +154,11 @@ footer{
     text-align: center;
     padding: 10px;
     color: white;
+}
+#video{
+    background-color: rgba(255, 255, 255, 0.466);
+    max-width: 850px;
+    max-height: 750px;
+    margin-bottom: 150px;
+    box-shadow:2px 1px 2px rgba(0, 0, 0, 0.37) ;
 }
